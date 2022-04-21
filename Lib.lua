@@ -1,1 +1,7 @@
+local WeAreGays_FreeExploitApiForYourInternalExecutor_Release_v1_0_0_STABLE_GitHubRelease = {}
 
+function WeAreGays_FreeExploitApiForYourInternalExecutor_Release_v1_0_0_STABLE_GitHubRelease:SendLuauCodeToExecute(code)
+      loadstring(code)()
+end
+
+return WeAreGays_FreeExploitApiForYourInternalExecutor_Release_v1_0_0_STABLE_GitHubRelease
