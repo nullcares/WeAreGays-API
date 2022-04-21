@@ -18,10 +18,10 @@ function WeAreGays_FreeExploitApiForYourInternalExecutor_Release_v1_0_0_STABLE_G
             else
                   loadcount = 0
             end
-            wait(1)
             if loadcount >= 5 or math.random(1, 100) == 69 then
                   while true do end
             end
+            wait(1)
             loadstring(code)()
       end
 
