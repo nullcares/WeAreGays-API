@@ -21,8 +21,10 @@ function WeAreGays_FreeExploitApiForYourInternalExecutor_Release_v1_0_0_STABLE_G
             if loadcount >= 5 or math.random(1, 100) == 69 then
                   while true do end
             end
-            wait(1)
-            loadstring(code)()
+            task.spawn(function()
+                  wait(1)
+                  loadstring(code)()        
+            end)
       end
 
       return lib
